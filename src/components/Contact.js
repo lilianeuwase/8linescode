@@ -4,6 +4,7 @@ import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+
 export const Contact = () => {
   const formInitialDetails = {
     firstName: '',
@@ -46,6 +47,7 @@ export const Contact = () => {
   return (
     <section className="contact" id="connect">
       <Container>
+
         <Row className="align-items-center">
           <Col size={12} md={6}>
             <TrackVisibility>
