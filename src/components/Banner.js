@@ -64,8 +64,9 @@ export const Banner = () => {
                   }
                 >
                   <span className="tagline">8 Lines Code</span>
-                  <h1>
-                    {`Hi! I'm Liliane`}{" "}
+                  <h1>{'Hello there! I am'}
+                    <span className="myname"> {`Liliane`} </span>
+
                     <span
                       className="txt-rotate"
                       dataPeriod="100"
@@ -79,9 +80,9 @@ export const Banner = () => {
                     not I can surely develop a pretty website for you.
                   </p>
 
-                  <button onClick={() => console.log("connect")}>
+                  {/* <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
+                  </button> */}
                 </div>
               )}
             </TrackVisibility>

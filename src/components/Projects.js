@@ -1,8 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/Mediqqo1.svg";
+import projImg2 from "../assets/img/MediqqoDB.svg";
+import projImg3 from "../assets/img/BH.svg";
+import projImg4 from "../assets/img/RYVC.svg";
+import projImg5 from "../assets/img/Stigma.svg";
+import projImg6 from "../assets/img/8lines.svg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,39 +14,45 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Mediqqo",
+      description: "Electronic Prescription",
       imgUrl: projImg1,
+      link: "https://mediqo.onrender.com/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Mediqqo Login",
+      description: "Mediqqo Login",
       imgUrl: projImg2,
+      link: "https://mediqo.onrender.com/login",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Bank of Health",
+      description: "E-Health",
       imgUrl: projImg3,
+      link: "https://bankofhealth.vercel.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Rwanda Youth Voice for Change",
+      description: "Health & Education",
+      imgUrl: projImg4,
+      link: "http://rwandayvchange.org/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Abortion Stigma",
+      description: "Health & Education",
+      imgUrl: projImg5,
+      link: "https://fightabortionstigma.org/",
     },
     {
-      title: "Business Startup",
+      title: "8 Lines Code",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: projImg6,
+      link: "https://eightlinescode.onrender.com/",
     },
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>
@@ -51,9 +60,9 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>I have worked with different clients of different needs and requests. The below projects include static, and full-stack websites!</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                  {/* <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Tab 1</Nav.Link>
                     </Nav.Item>
@@ -63,7 +72,7 @@ export const Projects = () => {
                     <Nav.Item>
                       <Nav.Link eventKey="third">Tab 3</Nav.Link>
                     </Nav.Item>
-                  </Nav>
+                  </Nav> */}
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
@@ -79,12 +88,12 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    {/* <Tab.Pane eventKey="section">
+                      <p>Hi</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
+                    </Tab.Pane> */}
                   </Tab.Content>
                 </Tab.Container>
               </div>}

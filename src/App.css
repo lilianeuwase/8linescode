@@ -63,6 +63,14 @@ ul {
     text-decoration: none;
 }
 
+a h4 {
+    color: white;
+}
+
+a h4:hover {
+    color: #CF9FFF;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -354,6 +362,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .txt-rotate>.wrap {
     border-right: 0.08em solid #666;
+}
+
+.myname {
+    color: #AA367C;
 }
 
 
