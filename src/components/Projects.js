@@ -1,14 +1,22 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/Mediqqo1.svg";
-import projImg2 from "../assets/img/MediqqoDB.svg";
-import projImg3 from "../assets/img/BH.svg";
-import projImg4 from "../assets/img/RYVC.svg";
-import projImg5 from "../assets/img/Stigma.svg";
-import projImg6 from "../assets/img/8lines.svg";
-import colorSharp2 from "../assets/img/color-sharp2.png";
+import colorSharp2 from "../images/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+
+import projImg1 from "../images/Mediqqo1.svg";
+import projImg2 from "../images/MediqqoDB.svg";
+import projImg3 from "../images/BH.svg";
+import projImg4 from "../images/RYVC.svg";
+import projImg5 from "../images/Stigma.svg";
+import projImg6 from "../images/8lines.svg";
+
+// let projImg1 =require("../images/Mediqqo1.svg");
+// let projImg2 =require( "../images/MediqqoDB.svg");
+// let projImg3 =require( "../images/BH.svg");
+// let projImg4 =require( "../images/RYVC.svg");
+// let projImg5 =require( "../images/Stigma.svg");
+// let projImg6 =require( "../images/8lines.svg");
 
 export const Projects = () => {
 

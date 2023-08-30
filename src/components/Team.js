@@ -15,7 +15,7 @@ export const Team = () => {
             <TeamCard
               name="Liliane Uwase"
               description="CEO & Lead Developper"
-              imgUrl={require("../images/head/Head_Picture_2-removebg-preview.png")}
+              imgUrl={require("../images/Head_Picture_2-removebg-preview.png")}
               number="+250 786 111 498"
               email="tr.liliane.uwase@gmail.com"
             />
@@ -23,7 +23,7 @@ export const Team = () => {
               <TeamCard
                 name="Josiane Uwishimwe"
                 description="Developper & Linguist"
-                imgUrl={require("../images/head/Head_Picture_2-removebg-preview.png")}
+                imgUrl={require("../images/JosianeBG.png")}
                 number="+250 781 312 511"
                 email="uwishimwejosiane@gmail.com"
               />
