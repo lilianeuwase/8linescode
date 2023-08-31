@@ -64,7 +64,8 @@ export const Banner = () => {
                   }
                 >
                   <span className="tagline">8 Lines Code</span>
-                  <h1>{'Hello there! I am'}
+                  <h1>
+                    {"Hello there! I am"}
                     <span className="myname"> {`Liliane`} </span>
 
                     <span
@@ -77,7 +78,8 @@ export const Banner = () => {
                   </h1>
                   <p>
                     My other name is UWASE, But does that even matter? Uwase or
-                    not I can surely develop a pretty website for you.
+                    not I can surely develop a pretty website for you. I
+                    specialize in creating websites and web applications.
                   </p>
 
                   {/* <button onClick={() => console.log("connect")}>
