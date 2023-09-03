@@ -77,9 +77,8 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    My other name is UWASE, But does that even matter? Uwase or
-                    not I can surely develop a pretty website for you. I
-                    specialize in creating websites and web applications.
+                    We focus on Web Developping, Web Designing, and IT Consultancy.<br/>
+                    8 Lines Code centers designing, developping, testing, and maintaining software systems on an advanced and professional level.
                   </p>
 
                   {/* <button onClick={() => console.log("connect")}>
