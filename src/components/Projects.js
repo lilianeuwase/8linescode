@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../images/color-sharp2.png";
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+import "animate.css";
+import TrackVisibility from "react-on-screen";
 
 import projImg1 from "../images/Mediqqo1.svg";
 import projImg2 from "../images/MediqqoDB.svg";
@@ -11,7 +11,7 @@ import projImg4 from "../images/RYVC.svg";
 import projImg5 from "../images/Stigma.svg";
 import projImg6 from "../images/8lines.svg";
 
-// let projImg1 =require("../images/Mediqqo1.svg");
+// const projImg1 = require("../images/Mediqqo1.svg");
 // let projImg2 =require( "../images/MediqqoDB.svg");
 // let projImg3 =require( "../images/BH.svg");
 // let projImg4 =require( "../images/RYVC.svg");
@@ -19,7 +19,6 @@ import projImg6 from "../images/8lines.svg";
 // let projImg6 =require( "../images/8lines.svg");
 
 export const Projects = () => {
-
   const projects = [
     {
       title: "Mediqqo",
@@ -65,12 +64,20 @@ export const Projects = () => {
         <Row>
           <Col size={12}>
             <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
-                <p>8 Lines Code works with different clients of different needs and requests. These are some of 8 Lines Code concluded projects</p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  {/* <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? "animate__animated animate__fadeIn" : ""
+                  }
+                >
+                  <h2>Projects</h2>
+                  <p>
+                    8 Lines Code works with different clients of different needs
+                    and requests. These are some of 8 Lines Code concluded
+                    projects
+                  </p>
+                  <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                    {/* <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Tab 1</Nav.Link>
                     </Nav.Item>
@@ -81,35 +88,34 @@ export const Projects = () => {
                       <Nav.Link eventKey="third">Tab 3</Nav.Link>
                     </Nav.Item>
                   </Nav> */}
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    <Tab.Pane eventKey="first">
-                      <Row>
-                        {
-                          projects.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
-                      </Row>
-                    </Tab.Pane>
-                    {/* <Tab.Pane eventKey="section">
+                    <Tab.Content
+                      id="slideInUp"
+                      className={
+                        isVisible ? "animate__animated animate__slideInUp" : ""
+                      }
+                    >
+                      <Tab.Pane eventKey="first">
+                        <Row>
+                          {projects.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
+                      </Tab.Pane>
+                      {/* <Tab.Pane eventKey="section">
                       <p>Hi</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane> */}
-                  </Tab.Content>
-                </Tab.Container>
-              </div>}
+                    </Tab.Content>
+                  </Tab.Container>
+                </div>
+              )}
             </TrackVisibility>
           </Col>
         </Row>
       </Container>
       <img className="background-image-right" src={colorSharp2}></img>
     </section>
-  )
-}
+  );
+};

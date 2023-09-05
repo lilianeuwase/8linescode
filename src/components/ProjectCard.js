@@ -5,7 +5,7 @@ export const ProjectCard = ({ title, description, imgUrl, link }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
-        <img src={imgUrl} />
+        <img src={imgUrl} alt="Click here to see the project"/>
         <div className="proj-txtx">
           <a
             style={{ textDecoration: "none" }}
