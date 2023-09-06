@@ -25,6 +25,7 @@ const useStyles = createStyles((theme) => ({
   },
 
   imageSection: {
+    
     height: 220,
     width: 220,
     padding: theme.spacing.md,
@@ -80,7 +81,7 @@ export function CardItem2(props) {
   return (
     <Card withBorder radius="md" className={classes.card}>
       <Card.Section className={classes.imageSection}>
-        <Image src={props.imgUrl} alt={props.name} />
+        <Image src={props.imgUrl} alt={props.name} radius={100}/>
       </Card.Section>
 
       <Group position="apart" mt="md">

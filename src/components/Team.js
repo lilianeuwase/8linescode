@@ -21,7 +21,7 @@ export const Team = () => {
                     <CardItem2
                       name="Liliane Uwase"
                       title="Lead Developper & Designer"
-                      imgUrl={require("../images/Head_Picture_2-removebg-preview.png")}
+                      imgUrl={require("../images/LilianeCircle.png")}
                       number="+250 786 111 498"
                       email="tr.liliane.uwase@gmail.com"
                     />
@@ -30,7 +30,7 @@ export const Team = () => {
                     <CardItem2
                       name="Josiane Uwishimwe"
                       title="Developper & Linguist"
-                      imgUrl={require("../images/JosianeBG.png")}
+                      imgUrl={require("../images/JosianeCircle.png")}
                       number="+250 781 312 511"
                       email="uwishimwejosiane@gmail.com"
                     />
