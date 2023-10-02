@@ -77,8 +77,8 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    We focus on Web Developping, Web Designing, and IT Consultancy.<br/>
-                    8 Lines Code centers designing, developping, testing, and maintaining software systems on an advanced and professional level.
+                    We focus on Web Developing, Web Designing, and IT Consultancy.<br/>
+                    8 Lines Code centers designing, developing, testing, and maintaining software systems on an advanced and professional level.
                   </p>
 
                   {/* <button onClick={() => console.log("connect")}>
