@@ -29,7 +29,9 @@ export const Footer = () => {
                 <img src={navIcon3} alt="Icon" />
               </a>
             </div>
-            <p>Copyright 2023. All Rights Reserved to 8 Lines Code</p>
+            <p>Copyright 2023. All Rights Reserved to 8 Lines Code     <br/>  <br/>
+            Designed by 8 Lines Code Ltd.</p>
+       
           </Col>
         </Row>
       </Container>
