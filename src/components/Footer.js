@@ -10,9 +10,7 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-          <Team
-        
-          />
+          <Team />
           <Col size={12} sm={6}>
             <img src={logo} alt="Logo" />
           </Col>
@@ -25,13 +23,21 @@ export const Footer = () => {
                 <img src={navIcon1} alt="Icon" />
               </a>
               {/* <a href="#"><img src={navIcon2} alt="Icon" /></a> */}
-              <a href="https://www.instagram.com/lil_wase/" target="_blank">
+              {/* <a href="https://www.instagram.com/lil_wase/" target="_blank">
                 <img src={navIcon3} alt="Icon" />
-              </a>
+              </a> */}
             </div>
-            <p>Copyright 2023. All Rights Reserved to 8 Lines Code     <br/>  <br/>
-            Designed by 8 Lines Code Ltd.</p>
-       
+            <p>
+              Copyright 2023. All Rights Reserved to 8 Lines Code <br /> <br />
+              Website designed & developed by{" "}
+              <a
+                href="https://8linescode.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                8 Lines Code Ltd.
+              </a>
+            </p>
           </Col>
         </Row>
       </Container>
