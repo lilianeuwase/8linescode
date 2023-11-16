@@ -15,18 +15,18 @@ export const Footer = () => {
             <img src={logo} alt="Logo" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
-            <div className="social-icon">
+            {/* <div className="social-icon">
               <a
                 href="https://www.linkedin.com/in/liliane-uwase-907830163/"
                 target="_blank"
               >
                 <img src={navIcon1} alt="Icon" />
               </a>
-              {/* <a href="#"><img src={navIcon2} alt="Icon" /></a> */}
-              {/* <a href="https://www.instagram.com/lil_wase/" target="_blank">
+              <a href="#"><img src={navIcon2} alt="Icon" /></a>
+              <a href="https://www.instagram.com/lil_wase/" target="_blank">
                 <img src={navIcon3} alt="Icon" />
-              </a> */}
-            </div>
+              </a>
+            </div> */}
             <p>
               Copyright 2023. All Rights Reserved to 8 Lines Code <br /> <br />
               Website designed & developed by{" "}

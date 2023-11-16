@@ -79,7 +79,7 @@ export const NavBar = () => {
               >
                 Contact Us
               </Nav.Link>
-              <Nav.Link
+              {/* <Nav.Link
                 href="#theteam"
                 className={
                   activeLink === "blogs" ? "active navbar-link" : "navbar-link"
@@ -87,22 +87,22 @@ export const NavBar = () => {
                 onClick={() => onUpdateActiveLink("blogs")}
               >
                 The Team
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
             <span className="navbar-text">
-              <div className="social-icon">
+              {/* <div className="social-icon">
                 <a
                   href="https://www.linkedin.com/in/liliane-uwase-907830163/"
                   target="_blank"
                 >
                   <img src={navIcon1} alt="" />
                 </a>
-                {/* <a href="https://www.instagram.com/lil_wase/"><img src={navIcon2} alt="" /></a> */}
+                <a href="https://www.instagram.com/lil_wase/"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/lil_wase/" target="_blank">
                   <img src={navIcon3} alt="" />
                 </a>
-              </div>
-              <HashLink to="#connect">
+              </div> */}
+              <HashLink to="#contactus">
                 <button className="vvd">
                   <span>Let’s Connect</span>
                 </button>
