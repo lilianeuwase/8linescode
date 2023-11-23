@@ -35,7 +35,7 @@ export const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                8 Lines Code Ltd.
+                8 Lines Code
               </a>
             </p>
           </Col>
