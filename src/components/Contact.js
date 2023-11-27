@@ -90,7 +90,7 @@ export const Contact = () => {
                       name="Josiane Uwishimwe"
                       title="Sales Manager / Developper & Linguist"
                       imgUrl={require("../images/JosianeCircle.png")}
-                      number="+250 781 312 511"
+                      // number="+250 781 312 511"
                       email="uwishimwejosiane@gmail.com"
                     />
                   </Row>

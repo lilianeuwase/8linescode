@@ -101,11 +101,11 @@ export function CardItem2(props) {
 
         <Group spacing={8} mb={-8}>
           <Center key={props.number}>
-            <IconPhoneCall
+            {/* <IconPhoneCall
               size="1.05rem"
               className={classes.icon}
               stroke={1.5}
-            />
+            /> */}
             <Text size="xs">{props.number}</Text>
           </Center>
           <Center key={props.email}>
