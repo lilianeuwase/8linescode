@@ -28,7 +28,7 @@ export const Footer = () => {
               </a>
             </div> */}
             <p>
-              Copyright 2023. All Rights Reserved to 8 Lines Code <br /> <br />
+              Copyright {new Date().getFullYear()}. All Rights Reserved to 8 Lines Code <br /> <br />
               Website designed & developed by{" "}
               <a
                 href="https://8linescode.com/"
